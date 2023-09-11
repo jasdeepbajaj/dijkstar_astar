@@ -31,7 +31,7 @@ python main.py
 
 This will output results to results.csv and also display plot visualizations.
 
-###Usage
+### Usage
 
 The main parameters that can be configured are:
 
@@ -42,7 +42,7 @@ The main parameters that can be configured are:
 
 New maps can be added by placing pgm images in the data folder and loading them in main.py
 
-###Results
+### Results
 
 The main results are:
 
