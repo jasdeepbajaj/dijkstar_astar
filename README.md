@@ -1,7 +1,7 @@
 # Path Planning Project
 
 ## About
-This project was created for MEEN 689 Motion Planning course at Texas A&M University. It finds optimal paths between source and destination nodes on maps of the RELLIS campus using Dijkstra's algorithm and A* search.
+This project was created for MEEN 689 (SPTP: Planning and Control of Autonomous Vehicles) at Texas A&M University. It finds optimal paths between source and destination nodes on maps of the RELLIS campus (at different resolutions) using Dijkstra's algorithm and A* search.
 
 Four maps of different resolutions are used:
 
@@ -40,7 +40,7 @@ The main parameters that can be configured are:
 - `maps`: List of occupancy grid maps to use
 - `res`: List of resolutions corresponding to each map
 
-New maps can be added by placing pgm images in the data folder and loading them in main.py
+New maps can be added by placing pgm images in the folder and loading them in main.py
 
 ### Results
 
