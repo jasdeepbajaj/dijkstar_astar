@@ -5,9 +5,12 @@ This project was created for MEEN 689 Motion Planning course at Texas A&M Univer
 
 Four maps of different resolutions are used:
 
-Map 1: 2mx2m \n
+Map 1: 2mx2m 
+
 Map 2: 5mx5m
+
 Map 3: 10mx10m
+
 Map 4: 1mx1m
 
 The map is represented as a 2D occupancy grid, with 1 indicating an obstacle and 0 indicating free space.
