@@ -17,39 +17,48 @@ The map is represented as a 2D occupancy grid, with 1 indicating an obstacle and
 
 ## Getting Started
 
-##Project Scripts
-###utils.py:
-Contains a collection of handy functions utilized throughout the project.
+Project Scripts
 
-###dijkstra.py
-Implements the A* search algorithm for discovering optimal paths.
+utils.py: Contains a collection of handy functions utilized throughout the project.
 
-###astar.py
-Houses the code for Dijkstra's search algorithm to determine optimal paths.
+dijkstra.py: Houses the code for Dijkstra's search algorithm to determine optimal paths.
 
-###main.py
-Coordinates the execution of path planning, employing both Dijkstra and A* algorithms, across various map resolutions and source/destination pairs.
+astar.py: Houses the code for A* search algorithm along with heuristics function used to determine optimal paths.
+
+main.py: Coordinates the execution of path planning, employing both Dijkstra and A* algorithms, across various map resolutions and source/destination pairs.
 
 ##Running
+
 To run the path planner:
+
 python main.py
+
 This will output results to results.csv and also display plot visualizations.
 
 ##Usage
+
 The main parameters that can be configured are:
 
 source_nodes: List of source (start) nodes
+
 destination_nodes: List of destination (goal) nodes
+
 maps: List of occupancy grid maps to use
+
 res: List of resolutions corresponding to each map
+
 New maps can be added by placing pgm images in the data folder and loading them in main.py.
 
 ##Results
+
 The main results are:
 
-Computation time for Dijkstra's algorithm vs. A*
-Number of nodes searched by each algorithm
-Visualization showing the optimal path overlaid on the map
+1. Computation time for Dijkstra's algorithm vs. A*
+
+2. Number of nodes searched by each algorithm
+
+3. Visualization showing the optimal path overlaid on the map
+
 This allows analysis of how the optimal path and computation time varies based on map resolution.
 
 Results are output to results.csv.
