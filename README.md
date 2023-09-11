@@ -27,3 +27,5 @@ To run the path planner:
 
 ```bash
 python main.py
+
+This will output results to results.csv and also display plot visualizations.
