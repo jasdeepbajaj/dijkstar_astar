@@ -27,5 +27,28 @@ To run the path planner:
 
 ```bash
 python main.py
+```
 
 This will output results to results.csv and also display plot visualizations.
+
+###Usage
+
+The main parameters that can be configured are:
+
+- `source_nodes`: List of source (start) nodes
+- `destination_nodes`: List of destination (goal) nodes
+- `maps`: List of occupancy grid maps to use
+- `res`: List of resolutions corresponding to each map
+
+New maps can be added by placing pgm images in the data folder and loading them in main.py
+
+###Results
+
+The main results are:
+
+- Computation time for Dijkstra's algorithm vs. A*
+- Number of nodes searched by each algorithm
+- Visualization showing the optimal path overlaid on the map
+- This allows analysis of how the optimal path and computation time varies based on map resolution.
+
+Results are output to results.csv.
